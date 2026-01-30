@@ -6,7 +6,7 @@ The esstenial steps are as follows
 1. Data is acquired as multiple TIFF files in a single directory.
 2. The Downsample script is run to downsample the data for easier manipulation and data transfer
 3. The data is uploaded to a high-performance computing cluster or equivalent
-4. the 'AnalysisScript' is modified to point to the appropriate output directory
+4. the 'CaTalzye.sh' script is modified to point to the appropriate output directory
 5. Both Python 3 and Matlab must be installed on the cluster
 6. The AnalysisScript is run with the appropriate parameters
 
