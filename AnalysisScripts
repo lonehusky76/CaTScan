@@ -33,7 +33,7 @@ python ca_roi_time_PEAR.py $1 $4
 mv $1/for_segmentation/downsample/*.csv $1/for_matlab
 
 for filename in ${1}/for_matlab/*downsample.csv
-do matlab -nodisplay -nosplash -nodesktop -r "addpath('Ca_analysis_matlab_JM'); AP_run_analysis_XLV('${filename}', ['$1','/for_matlab/parameters.csv'],['$1','/matlab_output/'],${2:-0.05},${3:-0.1});exit;"
+do matlab -nodisplay -nosplash -nodesktop -r "addpath('CaTScan_analysis_matlab'); AP_run_analysis_XLV('${filename}', ['$1','/for_matlab/parameters.csv'],['$1','/matlab_output/'],${2:-0.05},${3:-0.1});exit;"
 done
 
 cd $1/matlab_output/
