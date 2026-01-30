@@ -11,5 +11,5 @@ The esstenial steps are as follows
 6. The AnalysisScript is run with the appropriate parameters
 
 The command to run the script is as follows: 
-        sbatch AnalysisScript.sh YOUR-DATA-DIRECTORY XXX YY
+        sbatch CaTaylze.sh YOUR-DATA-DIRECTORY XXX YY
         Where XXX is the threshold typically 0.05 to 0.08 and YY is the pacing stringency parameter, typically 0.1-0.3
